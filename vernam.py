@@ -28,7 +28,7 @@ def Sifrele():
                 if metin[i]==a[j]:
                     tabanmetin.append(ita[j])
         if len(metin)!=len(anahtar):
-            print('Metin ile Anahtar Metin ayni uzunlukta olmal�d�r.')
+            print('Metin ile Anahtar Metin ayni uzunlukta olmalidir.')
         result=[]
         for i in range(len(tabanmetin)):
             result.append(XOR(tabanmetin[i],anahtar[i]));
